@@ -1,0 +1,22 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited {
+    background-color: aquamarine;
+}
+
+.non-visited {
+    /* background-color: brown; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(204, 194, 194));
+}
+
+.flag-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
